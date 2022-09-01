@@ -1,12 +1,11 @@
 {
   "name": "pg-js-04",
   "version": "1.0.0",
-  "source": "./src/challenge/index.html",
+  "source": "./src/index.html",
   "scripts": {
     "dev": "parcel",
     "build": "parcel build",
-    "test:solution": "jest solution/",
-    "test:challenge": "jest challenge/"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
