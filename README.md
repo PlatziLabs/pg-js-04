@@ -1,18 +1,20 @@
-En este desafío tiene un código base el cual tienes lo que conocemos como el callback hell y tu tarea es evitarlo usando Promesas
+En este desafío tienes un código base el cual se aplica una mala práctica de programación que conocemos como el callback hell y tu tarea es evitarlo usando promesas.
 
+> Nota: No uses async/await, ya que este reto se trata de resolverlo mediante promesas
 
 La solución debería tener un input y output como los siguientes:
 
 Input
 
 ```js
-runCode();
+runCode()
+.then(response => console.log(response));
 ```
 
 Output
 
-```sh
+```bash
 ["Task 1", "Task 2", "Task 3"]
 ```
 
-Nota: No uses async/await, ya que este reto se trata de resolverlo con promesas
+
